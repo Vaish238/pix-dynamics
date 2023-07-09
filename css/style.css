@@ -1,0 +1,347 @@
+                                                    * {
+                                                        padding: 0;
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                     :root {
+                                                        --primary-color: #00b3e3;
+                                                    }
+                                                    
+                                                    body {
+                                                        overflow-x: clip;
+                                                    }
+                                                    
+                                                    .navbar-dark .navbar-nav .nav-link:focus,
+                                                    .navbar-dark .navbar-nav .nav-link:hover {
+                                                        color: black !important;
+                                                    }
+                                                    
+                                                    .navbar {
+                                                        padding: 1.3rem 1rem !important;
+                                                    }
+                                                    
+                                                    .navbar-dark .navbar-nav .nav-link {
+                                                        color: black;
+                                                    }
+                                                    
+                                                    .navbar-dark .navbar-nav .nav-link {
+                                                        color: black !important;
+                                                    }
+                                                    
+                                                    .nav-item .btn {
+                                                        background: #00b3e3;
+                                                        color: white !important;
+                                                        font-weight: 500;
+                                                        padding: 7px 24px !important;
+                                                    }
+                                                    
+                                                    .banner-bg {
+                                                        background-color: black;
+                                                        background-image: url(../images/bg.gif);
+                                                        height: 550px;
+                                                        background-size: contain;
+                                                        background-repeat: no-repeat;
+                                                        background-position: right top;
+                                                    }
+                                                    
+                                                    .btn {
+                                                        background: #00b3e3 !important;
+                                                        color: white !important;
+                                                        font-weight: 500 !important;
+                                                        padding: 7px 24px !important;
+                                                    }
+                                                    
+                                                    .banner-content {
+                                                        padding-top: 120px;
+                                                    }
+                                                    
+                                                    .banner-content h1 {
+                                                        color: #e7e5e2;
+                                                        font-family: system-ui;
+                                                        font-size: 3.3rem;
+                                                    }
+                                                    
+                                                    .banner-content p {
+                                                        color: #cecdcb;
+                                                        font-family: system-ui;
+                                                    }
+                                                    
+                                                    .banner-img img {
+                                                        width: 109%;
+                                                    }
+                                                    
+                                                    .pix {
+                                                        padding-top: 50px;
+                                                        padding-bottom: 50px;
+                                                        background-image: url(../images/square_pattern.png);
+                                                        background-repeat: no-repeat;
+                                                        background-position: right bottom;
+                                                    }
+                                                    
+                                                    .pix-txt h3 {
+                                                        font-family: system-ui;
+                                                        font-weight: 600;
+                                                        font-size: 2.3rem;
+                                                    }
+                                                    
+                                                    .card {
+                                                        background-color: #0d68bb !important;
+                                                        padding: 10px 15px;
+                                                        height: max-content;
+                                                        border-color: transparent !important;
+                                                    }
+                                                    
+                                                    .card img {
+                                                        width: 130px;
+                                                        padding-top: 20px;
+                                                        display: block;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                    }
+                                                    
+                                                    .card h3 {
+                                                        padding-top: 20px;
+                                                        text-align: center;
+                                                        color: #fcfcfc;
+                                                    }
+                                                    
+                                                    .card p {
+                                                        padding-top: 10px;
+                                                        text-align: center;
+                                                        color: #d6d4d4;
+                                                    }
+                                                    
+                                                    .crd-1 {
+                                                        top: -42px;
+                                                    }
+                                                    
+                                                    .crd-2 {
+                                                        top: -86px;
+                                                    }
+                                                    
+                                                    .wrapper {
+                                                        max-width: 1300px;
+                                                        width: 100%;
+                                                        margin: 0 auto;
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .row-features {
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .new-feature-slider {
+                                                        width: 100%;
+                                                        float: left;
+                                                        overflow: hidden;
+                                                        .feature-slide {
+                                                            width: 100%;
+                                                            position: absolute;
+                                                            top: 0;
+                                                            left: 0;
+                                                            opacity: 0;
+                                                            transition: all .5s ease;
+                                                            .feature-slide-image {
+                                                                img {
+                                                                    width: 100%;
+                                                                    display: block;
+                                                                }
+                                                            }
+                                                            &.active {
+                                                                opacity: 1;
+                                                            }
+                                                        }
+                                                    }
+                                                    
+                                                    .block-wrap {
+                                                        position: relative;
+                                                        width: 100%;
+                                                        &:before {
+                                                            content: "";
+                                                            width: 100%;
+                                                            padding-top: 100%;
+                                                            display: block;
+                                                        }
+                                                    }
+                                                    
+                                                    .w50 {
+                                                        width: 50%;
+                                                        float: left;
+                                                    }
+                                                    
+                                                    .h50:before {
+                                                        padding-top: 50%;
+                                                    }
+                                                    
+                                                    .block {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        position: absolute;
+                                                        top: 0;
+                                                        left: 0;
+                                                        bottom: 0;
+                                                        right: 0;
+                                                        overflow: hidden;
+                                                        box-sizing: border-box;
+                                                    }
+                                                    
+                                                    .content-centered {
+                                                        text-align: center;
+                                                        position: absolute;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        z-index: 100;
+                                                        width: 100%;
+                                                        max-width: 25em;
+                                                        transform: translate(-50%, -50%);
+                                                    }
+                                                    
+                                                    .controls {
+                                                        box-sizing: border-box;
+                                                        width: 80px;
+                                                        height: 160px;
+                                                        position: absolute;
+                                                        z-index: 9999;
+                                                        border-right: solid 8px rgba(93, 193, 195, 0.4);
+                                                        overflow: visible;
+                                                        .control {
+                                                            box-sizing: border-box;
+                                                            width: 80px;
+                                                            height: 80px;
+                                                            display: block;
+                                                            background: #fff;
+                                                            cursor: pointer;
+                                                            transition: all .3s ease;
+                                                            position: relative;
+                                                            float: right;
+                                                            &:first-child {
+                                                                border-bottom: 1px solid rgba(4, 68, 86, 0.2);
+                                                            }
+                                                            &.button-next {
+                                                                transform: rotate(180deg);
+                                                            }
+                                                            &:before,
+                                                            &:after {
+                                                                width: 20px;
+                                                                height: 2px;
+                                                                position: absolute;
+                                                                top: 50%;
+                                                                left: 50%;
+                                                                display: block;
+                                                                transform-origin: left center;
+                                                                content: "";
+                                                                background-color: #333f4a;
+                                                                transition: all .3s ease;
+                                                            }
+                                                            &:before {
+                                                                transform: translate(-50%, -50%) rotate(45deg);
+                                                            }
+                                                            &:after {
+                                                                transform: translate(-50%, -50%) rotate(-45deg);
+                                                            }
+                                                            &:hover {
+                                                                background-color: #5dc1c3;
+                                                                &:before,
+                                                                &:after {
+                                                                    background-color: white;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    
+                                                    .new-feature-controls {
+                                                        bottom: 10px;
+                                                        right: 50%;
+                                                    }
+                                                    
+                                                    .how {
+                                                        background-color: #ebeae8;
+                                                        padding-top: 50px;
+                                                        padding-bottom: 50px;
+                                                    }
+                                                    
+                                                    .card-px {
+                                                        background-color: #0d68bb !important;
+                                                        padding: 17px 15px;
+                                                        height: max-content;
+                                                        border-color: transparent !important;
+                                                        border-radius: 3px;
+                                                    }
+                                                    
+                                                    .card-px h4 {
+                                                        font-size: 33px;
+                                                        text-align: center;
+                                                        color: #e4ecb1;
+                                                        padding-top: 15px;
+                                                    }
+                                                    
+                                                    .card-px p {
+                                                        font-size: 18px;
+                                                        text-align: center;
+                                                        color: #dbdbdb;
+                                                        padding-top: 8px;
+                                                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                    }
+                                                    
+                                                    .card-px img {
+                                                        display: block;
+                                                        margin-left: auto;
+                                                        margin-right: auto;
+                                                    }
+                                                    
+                                                    .pixel-impact {
+                                                        padding-top: 50px;
+                                                        padding-bottom: 50px;
+                                                    }
+                                                    
+                                                    footer {
+                                                        padding-top: 50px;
+                                                        padding-bottom: 50px;
+                                                        background-color: #ebeae8;
+                                                    }
+                                                    
+                                                    .foot-txt {
+                                                        font-size: 19px;
+                                                        font-family: system-ui;
+                                                        padding-top: 16px;
+                                                    }
+                                                    
+                                                    .footer-item ul {
+                                                        list-style-type: none;
+                                                    }
+                                                    
+                                                    .footer-item ul li a {
+                                                        color: #3d3b3b;
+                                                        line-height: 30px;
+                                                        font-size: 15px;
+                                                        font-family: system-ui;
+                                                    }
+                                                    /* mediaqueries */
+                                                    
+                                                    @media (min-width: 768px) {
+                                                        .navbar-expand-md .navbar-nav .nav-link {
+                                                            padding-right: 2.5rem !important;
+                                                            padding-left: 0.5rem;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 768px) {
+                                                        .banner-img img {
+                                                            display: none !important;
+                                                        }
+                                                        .crd-1 {
+                                                            top: 0px !important;
+                                                        }
+                                                        .crd-2 {
+                                                            top: 0px !important;
+                                                        }
+                                                        .crd {
+                                                            margin: 5px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width:425px) {
+                                                        .banner-content h1 {
+                                                            font-size: 1.7rem !important;
+                                                        }
+                                                    }
